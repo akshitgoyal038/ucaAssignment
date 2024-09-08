@@ -45,6 +45,14 @@ int myQueuePop(MyQueue* obj) {
     if(myQueueEmpty(obj)) return -1;
     int ele = obj->arr[obj->front];
     obj->front++;
+
+    
     obj->sz--;
+
+
     return ele;
+
+
+
+
 }
